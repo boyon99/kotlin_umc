@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:weightSum="5">
+        <TextView
+            android:id="@+id/name_listview_item"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:text="이름"
+            android:background="#E8D9D9"
+            android:textColor="@color/black"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="45dp"></TextView>
+
+        <TextView
+            android:id="@+id/contnents_listview_item"
+            android:layout_marginTop="-5dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#E6E6E6"
+            android:text="내용"
+            android:textSize="20sp"></TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
