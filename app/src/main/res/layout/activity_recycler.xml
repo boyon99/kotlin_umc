@@ -20,12 +20,4 @@
             tools:listitem="@layout/listview_item"></ListView>
     </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:backgroundTint="#756262"
-        android:layout_marginLeft="10dp"
-        android:text="추가"></Button>
-
 </LinearLayout>
