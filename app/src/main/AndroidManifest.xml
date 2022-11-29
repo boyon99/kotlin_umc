@@ -13,7 +13,7 @@
         android:theme="@style/Theme.UMC_kotlin"
         tools:targetApi="31">
         <activity
-            android:name=".TabView"
+            android:name=".NavigationView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,8 +52,9 @@
 
         <!--6.BottomNavigationView-->
         <activity
-            android:name=".NavigationView"
+            android:name=".TabView"
             android:exported="false"/>
+
 
 
     </application>
